@@ -1,0 +1,33 @@
+/* Homepage.css */
+
+.navbar {
+    height: 80px; /* Adjust the height as needed */
+    width: 100%; /* Make the navbar span the entire width of the page */
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes up the full height of the navbar */
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the form takes up the full width of the navbar */
+    max-width: 800px; /* Optional: Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally within the navbar */
+  }
+  
+  .form-control {
+    flex: 1; /* Let the search input grow to fill available space */
+    height: 40px; /* Adjust the height of the search input */
+    font-size: 1.2rem; /* Adjust the font size of the search input */
+  }
+  
+  .btn {
+    height: 40px; /* Adjust the height of the button */
+    font-size: 1.2rem; /* Adjust the font size of the button */
+  }
+  
