@@ -36,7 +36,7 @@ export const SidebarData = [
   },
   {
     icon: UilPackage,
-    heading: 'Video Conferencing',
+    heading: 'Video Conference',
     linking:'/video'
   },
   {
@@ -49,14 +49,14 @@ export const SidebarData = [
 // Analytics Cards Data
 export const cardsData = [
   {
-    title: "Machine Learning",
+    //title: "Machine Learning",
     color: {
       backGround: "black", // Grey color
       // boxShadow: "0px 10px 20px 0px #CCCCCC", // Same grey color for boxShadow
     },
     
     barValue: 70,
-    value: "25,970",
+    value: "Machine Learning",
     png: UilUsdSquare,
     series: [
       {
@@ -67,13 +67,13 @@ export const cardsData = [
   },
 
   {
-    title: "Design",
+    //title: "Design",
     color: {
       backGround: "black",
       // boxShadow: "0px 10px 20px 0px #CCCCCC",
     },
     barValue: 80,
-    value: "14,270",
+    value: "Design",
     png: UilMoneyWithdrawal,
     series: [
       {
@@ -84,14 +84,14 @@ export const cardsData = [
   },
 
   {
-    title: "Finance",
+    //title: "Finance",
     color: {
       backGround:
         "black",
       // boxShadow: "0px 10px 20px 0px #CCCCCC",
     },
     barValue: 60,
-    value: "4,270",
+    value: "Finance",
     png: UilClipboardAlt,
     series: [
       {

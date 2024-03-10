@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom';
 import Preferenceform from './components/Preferenceform';
 import Home from './components/Homepage'
 import Video from './components/Video1';
+import Note from './components/Note';
 // import App from '../../videosdk-rtc-react-sdk-example/src/App';
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Preferenceform" element={<Preferenceform/>} />
         {/* <Route path="/App" element={ <App/>} /> */}
         <Route path="/video" element={<Video/>} />
+        <Route path="/note" element={<Note/>}/>
         {/* <Route path="/MainDash" component={MainDash} /> */}
         </Routes>
         {/* Define a "catch-all" route for 404 pages */}

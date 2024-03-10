@@ -1,3 +1,4 @@
+// /Sidebar.jsx
 import React, { useState } from "react";
 import "./Sidebar.css";
 import Logo from "../imgs/logo.png";
@@ -33,7 +34,7 @@ const Sidebar = () => {
     >
       {/* logo */}
       <div className="logo">
-        <img src={Logo} alt="logo" />
+        {/* <img src={Logo} alt="logo" /> */}
         <span>
           Stu<span>dy</span>Buds
         </span>
