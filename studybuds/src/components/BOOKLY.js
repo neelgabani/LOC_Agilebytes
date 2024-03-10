@@ -200,9 +200,11 @@
 //   export default BOOKLY;
 
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import img from "./img@2x.png"
 const BOOKLY = () => {
 
+  const navigate = useNavigate()
   return (
 
     <div
@@ -1155,7 +1157,7 @@ const BOOKLY = () => {
 
               </div>
 
-              <img
+              {/* <img
 
                 style={{
 
@@ -1175,7 +1177,7 @@ const BOOKLY = () => {
 
                 src="/icon.svg"
 
-              />
+              /> */}
 
             </div>
 
@@ -1246,9 +1248,10 @@ const BOOKLY = () => {
                   fontWeight: "500",
 
                 }}
+                onClick={()=>{navigate("/Preferenceform")}}
 
               >
-
+                
                 Get Started
 
               </div>
