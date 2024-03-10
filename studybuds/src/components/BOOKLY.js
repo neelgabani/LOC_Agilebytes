@@ -210,7 +210,7 @@ const BOOKLY = () => {
       style={{
         width: "100%",
         position: "relative",
-        backgroundColor: "#853ef3",
+        backgroundColor: "rgb(200, 180, 230)",
         boxShadow: "0px 0px 80px rgba(0, 0, 0, 0.24)",
         height: "1024px",
         overflow: "hidden",
@@ -225,29 +225,24 @@ const BOOKLY = () => {
 
     >
 
-      <div
-
-        style={{
-
-          position: "absolute",
-
-          top: "80px",
-
-          left: "0px",
-
-          borderRadius: "32px 32px 0px 0px",
-
-          backgroundColor: "#fff",
-
-          width: "1440px",
-
-          height: "944px",
-
-          overflow: "hidden",
-
-        }}
-
-      >
+<div
+  style={{
+    // Position the element to cover the entire viewport
+    position: "absolute",
+    top: "20",
+    left: "0",
+    right: "0",
+    bottom: "0",
+    // Center the element horizontally and vertically
+    margin: "auto",
+    // Apply other styles
+    borderRadius: "32px 32px 0px 0px",
+    backgroundColor: "white",
+    width: "1440px",
+    height: "944px",
+    overflow: "hidden",
+  }}
+>
 
         <div
 

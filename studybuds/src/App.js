@@ -1,20 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './components/Homepage';
 import BOOKLY from './components/BOOKLY';
 import MainDash from './components/MainDash/MainDash';
 import RightSide from './components/RigtSide/RightSide';
 import Sidebar from './components/Sidebar';
-
+import video from './components/video';
+import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom';
+import Preferenceform from './components/Preferenceform';
+import Home from './components/Homepage'
+import Video from './components/Video1';
+// import App from '../../videosdk-rtc-react-sdk-example/src/App';
 function App() {
   return (
     <div className="App">
-      {/* <BOOKLY/> */}
-      <div className="AppGlass">
+      {/* <video/> */}
+      {/* <div className="AppGlass">
         <Sidebar/>
         <MainDash/>
         <RightSide/>
-      </div>
+      </div> */}
+      <BrowserRouter>    
+        {/* Define individual routes using Route */}
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+        <Route path="/BOOKLY" element={<BOOKLY/>} />
+        <Route path="/Preferenceform" element={<Preferenceform/>} />
+        {/* <Route path="/App" element={ <App/>} /> */}
+        <Route path="/video" element={<Video/>} />
+        {/* <Route path="/MainDash" component={MainDash} /> */}
+        </Routes>
+        {/* Define a "catch-all" route for 404 pages */}
+        {/* <Route path='/'/> */}
+    </BrowserRouter>
             {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
