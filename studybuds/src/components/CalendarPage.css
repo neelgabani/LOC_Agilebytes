@@ -1,0 +1,32 @@
+.CalendarPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px); /* Adjust height as necessary */
+    padding: 20px;
+  }
+  
+  .CalendarPage h2 {
+    margin-bottom: 20px;
+  }
+  
+  .CalendarContainer {
+    width: 100%;
+    max-width: 1000px; /* Adjust based on your layout */
+  }
+  
+  /* This will enlarge the calendar, making it more responsive to container size */
+  .react-calendar {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1.5em; /* Scales up text and other elements */
+    border: none;
+  }
+  
+  /* Adjust individual items for a larger display */
+  .react-calendar__navigation button,
+  .react-calendar_month-viewdays_day {
+    padding: 10px; /* Increase padding for each day */
+    font-size: 1.2em; /* Increase font size for readability */
+  }

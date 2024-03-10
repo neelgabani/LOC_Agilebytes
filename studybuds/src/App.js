@@ -10,6 +10,7 @@ import Preferenceform from './components/Preferenceform';
 import Home from './components/Homepage'
 import Video from './components/Video1';
 import Note from './components/Note';
+import CalendarPage from './components/CalendarPage';
 // import App from '../../videosdk-rtc-react-sdk-example/src/App';
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         {/* <Route path="/App" element={ <App/>} /> */}
         <Route path="/video" element={<Video/>} />
         <Route path="/note" element={<Note/>}/>
+        <Route path="/CalendarPage" element={<CalendarPage/>}/>
         {/* <Route path="/MainDash" component={MainDash} /> */}
         </Routes>
         {/* Define a "catch-all" route for 404 pages */}

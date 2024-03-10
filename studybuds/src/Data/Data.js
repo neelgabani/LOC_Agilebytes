@@ -42,7 +42,7 @@ export const SidebarData = [
   {
     icon: UilChart,
     heading: 'Progress',
-    linking:'/'
+    linking:'/CalendarPage'
   },
 ];
 

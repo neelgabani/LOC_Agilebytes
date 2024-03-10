@@ -65,9 +65,8 @@ import Chart from "react-apexcharts";
 const CustomerReview = () => {
   return (
     <div className="CustomerReview">
-      <h1>No reviews available</h1>
-      <p>Check back later for updates!</p>
-    </div>
+      <h1>TO-DO-LIST</h1>
+          </div>
   );
 };
 
