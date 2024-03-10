@@ -1,0 +1,15 @@
+.ToDoList {
+    max-width: 600px; /* Set a max-width for the to-do list */
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* Background color for the to-do list */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Box-shadow for some depth */
+    border-radius: 8px;
+  }
+  
+  .ToDoList h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* More styles here */
