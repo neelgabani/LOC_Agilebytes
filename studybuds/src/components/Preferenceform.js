@@ -1,6 +1,7 @@
 // src/components/PreferenceForm.js
 
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import './Preferenceform.css'; // Import the CSS file for styling
 
 const Preferenceform = () => {
@@ -13,6 +14,8 @@ const Preferenceform = () => {
     const selectedSubjects = Array.from(e.target.selectedOptions, (option) => option.value);
     setSubjects(selectedSubjects);
   };
+
+  const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -110,7 +113,7 @@ const Preferenceform = () => {
             {/* Add more subjects as needed */}
           </select>
         </div>
-        <button type="submit" className="submit-btn">Submit</button> {/* Add a class to style the submit button */}
+        <button type="submit" className="submit-btn" onClick={()=>{navigate("/")}}>Submit</button> {/* Add a class to style the submit button */}
       </form>
     </div>
   );
